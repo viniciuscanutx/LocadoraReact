@@ -1,8 +1,8 @@
-# React + Vite
+# Locadora em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto tem a intenção de fazer uma locadora online que ultiliza apis em cima de um front-end para exibir filmes, suas sinopses e categorias.
 
-Currently, two official plugins are available:
+Nesse projeto foi ultilizado a estrutura de arquivos do vite e algumas dependencias do react como o Router DOM.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Screenshots do Projeto
+
