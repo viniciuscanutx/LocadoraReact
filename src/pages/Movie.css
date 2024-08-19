@@ -8,12 +8,13 @@
 
 .movie-page svg {
     font-size: 1.5rem;
-    color: #f7d354;
+    color: #BB342F;
 }
 
 .movie-page .movie-card {
     text-align: center;
 }
+
 
 .movie-page .movie-card img,
 .movie-page .movie-card h2,
@@ -35,12 +36,11 @@
 .tagline {
     text-align: center;
     font-size: 1.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .info {
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .info h3 {

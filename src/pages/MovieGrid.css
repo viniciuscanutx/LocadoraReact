@@ -6,7 +6,7 @@
 }
 
 .title .query-text {
-    color: #f7d354;
+    color: #BB342F;
 }
 
 .movies-container {
@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #111;
+    background-color: #031b2e;
     padding: 1rem;
 }
 
@@ -43,14 +43,14 @@
 }
 
 .movies-container div svg {
-    color: #f7d354;
+    color: #BB342F;
 }
 
 .movies-container div a {
-    background-color: #F7D354;
-    border: 2px solid #F7D354;
+    background-color: #BB342F;
+    border: 2px solid #962b27;
     border-radius: 4px;
-    color: #000;
+    color: #ffffff;
     padding: 0.7rem 0.5rem;
     font-size: 1.3rem;
     align-items: center;
@@ -62,5 +62,5 @@
 
 .movies-container div a:hover {
     background-color: transparent;
-    color: #F7D354;
+    color: #BB342F;
 }

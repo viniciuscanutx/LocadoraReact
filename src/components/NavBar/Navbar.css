@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #121212;
+    background-color: #031b2e;
 }
 
 #Navbar h2 a {
@@ -24,8 +24,8 @@
 }
 
 #Navbar form button{
-    background-color: #F7D354;
-    border: 2px solid #F7D354;
+    background-color: #BB342F;
+    border: 2px solid #BB342F;
     border-radius: 4px;
     color: #000;
     padding: .3rem;
@@ -39,5 +39,5 @@
 
 #Navbar form button:hover {
     background-color: transparent;
-    color: #F7D354;
+    color: #ffffff;
 }
