@@ -19,6 +19,7 @@
 .movie-page .movie-card img,
 .movie-page .movie-card h2,
 .movie-page .movie-card p {
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -31,12 +32,7 @@
     align-items: center;
     justify-content: center;
     gap: 0.4rem;
-}
-
-.tagline {
-    text-align: center;
-    font-size: 1.3rem;
-    margin-bottom: 3rem;
+    margin-top: 0.5rem;
 }
 
 .info {
@@ -44,6 +40,15 @@
 }
 
 .info h3 {
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.info h2 {
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
@@ -52,4 +57,24 @@
 
 .description p {
     line-height: 1.4rem;
+}
+
+.infobtn h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+    background-color: #BB342F;
+    border: 2px solid #962b27;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 0.7rem 0.5rem;
+    font-size: 1.3rem;
+    align-items: center;
+    transition: .4s;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    max-width: 60%;
 }

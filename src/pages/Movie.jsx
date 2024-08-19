@@ -8,6 +8,7 @@ import {
 
 import './Movie.css'
 import MovieCard from "../components/MovieCard/MovieCard";
+import Button from "../components/Button-Watch/Button";
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -38,10 +39,10 @@ const Movie = () => {
 
   return (
     <div className="movie-page">
+      
       {movie && (
         <>
           <MovieCard movie={movie} showLink={false} />
-          <p className="tagline">{movie.tagline}</p>
           <div className="info description">
             <h3>
               <BsFillFileEarmarkTextFill /> Descrição:
@@ -49,17 +50,18 @@ const Movie = () => {
             <p>{movie.overview}</p>
           </div>
           <div className="info">
-            <h3>
+            <h2>
               <BsHourglassSplit /> Duração:
-            </h3>
+            </h2>
             <p>{movie.runtime} minutos</p>
           </div>
           <div className="info">
-            <h3>
+            <h2>
               <BsGraphUp /> Receita:
-            </h3>
+            </h2>
             <p>{formatCurrency(movie.revenue)}</p>
           </div>
+          <Button />
         </>
       )}
     </div>

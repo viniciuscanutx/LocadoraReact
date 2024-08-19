@@ -1,0 +1,24 @@
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 1.2rem;
+    background-color: #BB342F;
+    border: 2px solid #962b27;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 0.7rem 0.5rem;
+    font-size: 1.3rem;
+    align-items: center;
+    transition: .4s;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+h1:hover {
+    background: transparent;
+    color: #BB342F;
+}
