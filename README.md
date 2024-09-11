@@ -58,5 +58,3 @@ npm run dev
 ## Screenshots
 
 <img src='https://raw.githubusercontent.com/viniciuscanutx/LocadoraReact/main/img/1.png' width=800px />
-
-<img src='' width=800px />
